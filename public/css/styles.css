@@ -1,11 +1,10 @@
-
 body {
   background-color: #E8ECEF;
 }
 
 .centered {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .secret-text {
@@ -13,4 +12,14 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .secret-text {
+    font-size: 1.3rem;
+  }
+
+  .display-3 {
+    font-size: 2rem;
+  }
 }
